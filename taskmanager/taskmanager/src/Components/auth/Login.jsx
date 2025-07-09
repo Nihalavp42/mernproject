@@ -31,7 +31,7 @@ function Login() {
          <form onSubmit={handleLogin}>
       <input placeholder="Email" value={email} onChange={(e) => setEmail(e.target.value)} />
       <input placeholder="Password" type="password" value={password} onChange={(e) => setPassword(e.target.value)} />
-      <button type="submit">Login</button>
+      <button type="submit">Login button </button>
     </form>
     </div>
   )
